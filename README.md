@@ -9,3 +9,5 @@ For downloading the dataset and creating the training/validation data, please ru
 If you'd like to run the baselines, please check the [CleanUNet](https://github.com/NVIDIA/CleanUNet) and [FullSubNet](https://github.com/Audio-WestlakeU/FullSubNet) sections in `denoising-baselines.ipynb`.
 
 The entire pipeline, form dataloaders to inference, is specified in `CleanSpecNet.ipynb`, which was used to train/test the model. we have also modularized the code for ease of reference and use. The notebook has been split into the relevant sections, including ones that specify the requirements and to load relevant checkpoints for inference.
+
+> Disclaimer: Some parts of our implementation are referenced from the original implementation of [CleanUNet](https://github.com/NVIDIA/CleanUNet).
