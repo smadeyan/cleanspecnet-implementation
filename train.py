@@ -1,4 +1,4 @@
-wandb.login(key="8e00abb67ba14a9fe0b7208b48a9200ac1fcf91c")
+wandb.login(key="")
 
 # Create your wandb run
 run = wandb.init(
